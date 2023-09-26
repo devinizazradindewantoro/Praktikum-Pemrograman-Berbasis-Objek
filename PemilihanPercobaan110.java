@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class PemilihanPercobaan110 {
     public static void main(String[] args) {
-        Scanner input00 = new Scanner(System.in);
-
+        Scanner input10 = new Scanner(System.in);
+        int angka;
         System.out.println("Masukkan angka:  ");
-        int angka = input00.nextInt();
+        angka = input10.nextInt();
 
-        if (angka % 2 == 0)
-            System.out.println("Angka "+angka+" bilangan genap");
-        else
-            System.out.println("Angka "+angka+" bilangan ganjil");
+        int nomor = 10;
+
+        String hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
+        System.out.println("Angka ini adalah " + hasil);
     }
     
 }

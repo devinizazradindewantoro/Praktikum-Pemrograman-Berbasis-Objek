@@ -1,18 +1,18 @@
 import java.util.Scanner;
 public class PemilihanPercobaan310 {
     public static void main(String[] args) {
-        Scanner input00 = new Scanner(System.in);
+        Scanner input10 = new Scanner(System.in);
 
         double angka1, angka2, hasil;
         char operator;
 
         
         System.out.println("Masukkan angka pertama: ");
-        angka1 = input00.nextDouble();
+        angka1 = input10.nextDouble();
         System.out.println("Masukkan angka kedua: ");
-        angka2 = input00.nextDouble();
+        angka2 = input10.nextDouble();
         System.out.println("Masukkan operator (+ - * /): ");
-        operator = input00.next().charAt(0);
+        operator = input10.next().charAt(0);
 
         switch (operator) {
             case '+' :

@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public class PemilihanPercobaan210 {
     public static void main(String[] args) {
-        Scanner input00 = new Scanner(System.in);
+        Scanner input10 = new Scanner(System.in);
         
 
         System.out.println("Nilai uas    : ");
-        float uas = input00.nextFloat();
+        float uas = input10.nextFloat();
         System.out.println("Nilai uts    :");
-        float uts = input00.nextFloat();
+        float uts = input10.nextFloat();
         System.out.println("Nilai kuis   :");
-        float kuis = input00.nextFloat();
+        float kuis = input10.nextFloat();
         System.out.println("Nilai Tugas  :");
-        float tugas = input00.nextFloat();
+        float tugas = input10.nextFloat();
         
 
         float total = (uas  + uts  + kuis  + tugas) / 4 ;
