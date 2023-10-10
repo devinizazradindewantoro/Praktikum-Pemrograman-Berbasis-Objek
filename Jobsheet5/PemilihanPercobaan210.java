@@ -32,7 +32,9 @@ public class PemilihanPercobaan210 {
             System.out.println("Kualifikasi Kurang dengan predikat 'D' ");
           } else {
             System.out.println("Kualifikasi Gagal dengan predikat 'E' ");
-          }      
+          }  
+          
+          input10.close();
     }
     
 }
