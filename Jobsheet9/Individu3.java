@@ -17,5 +17,6 @@ public class Individu3 {
         } else {
             System.out.println("Input tidak valid. Masukkan angka antara 1-12.");
         }
+        scanner.close();
     }
 }

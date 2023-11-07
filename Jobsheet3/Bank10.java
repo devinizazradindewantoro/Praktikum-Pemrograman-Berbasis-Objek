@@ -14,7 +14,6 @@ public static void main(String[] args){
     System.out.println ("Bunga adalah " +bunga);
     System.out.println ("Jumlah tabungan akhir anda adalah " +jml_tabungan_akhir);
 
-}
-
-    
+    dev.close();
+    }    
 }

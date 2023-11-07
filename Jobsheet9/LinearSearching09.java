@@ -30,6 +30,7 @@ public class LinearSearching09 {
         } else {
             System.out.println("Key ada di posisi indeks ke-" + index);
         }
+        sc.close();
     }
 }
 

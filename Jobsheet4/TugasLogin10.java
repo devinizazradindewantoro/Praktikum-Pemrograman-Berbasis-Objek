@@ -16,7 +16,7 @@ public class TugasLogin10 {
         } else {
             System.out.println("username dan password salah");
         }
-
+        Input.close();
     }  
 
 }

@@ -4,7 +4,7 @@ public class BioskopWithScanner09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[][] penonton = new String[4][2];
-        String nama, next;
+        String nama;
         int baris, kolom;
 
     while (true) {        
@@ -55,6 +55,7 @@ public class BioskopWithScanner09 {
                 break;
 
         }
+        sc.close();
     }
     }
 }

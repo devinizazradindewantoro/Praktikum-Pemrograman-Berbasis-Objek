@@ -17,7 +17,7 @@ public class Gaji10 {
         System.out.println("Gaji yang anda terima adalah " + TotalGaji);
 
 
-
+        input.close();
     }
     
 }

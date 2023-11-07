@@ -33,6 +33,7 @@ public class Pemilihan2Percobaan3 {
             ;
         } else 
             System.out.println("Masukkan Kategori Salah");
+            input10.close();
     }
     
 }

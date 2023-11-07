@@ -13,5 +13,6 @@ public class Lingkaran10 {
         System.out.println(keliling);
         System.out.println(luas);
 
+        input.close();
     }
 }

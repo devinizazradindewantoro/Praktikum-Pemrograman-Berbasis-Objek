@@ -34,5 +34,7 @@ public class ArrayRataNilai09 {
 
         System.out.println("Rata-rata nilai lulus = " + rataLulus);
         System.out.println("Rata-rata nilai tidak lulus = " + rataTidakLulus);
+
+        sc.close();
     }
 }

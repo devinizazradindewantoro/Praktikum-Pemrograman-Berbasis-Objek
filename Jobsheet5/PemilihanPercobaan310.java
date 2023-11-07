@@ -32,6 +32,6 @@ public class PemilihanPercobaan310 {
                 break;
 
     }
-}
- 
+    input10.close();
+    }
 }

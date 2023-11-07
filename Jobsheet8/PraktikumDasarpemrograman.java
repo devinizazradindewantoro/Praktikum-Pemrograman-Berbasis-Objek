@@ -6,30 +6,26 @@ public class PraktikumDasarpemrograman {
         Scanner sc = new Scanner(System.in);
 
         //Deklarasi
-        float Matematika, Fisika, Inggris, Indonesia;
-        String prodi, jurusan;
-        float nilai = 0, total, rataRata = 0;
-        int jumlahMahasiswa;
-
+        float rataRata = 0;
         //Input
         System.out.println("Masukkan Jumlah Calon mahasiswa : ");
-        jumlahMahasiswa = sc.nextInt();
+        int jumlahMahasiswa = sc.nextInt();
         for(int i =1; i <= jumlahMahasiswa ; i++){
 
             System.out.println("Calon Mahasiswa " + i + " : ");
             
             System.out.println("Pilihan jurusan - IPA , IPS , BAHASA");
-            jurusan = sc.nextLine();
+            String jurusan = sc.nextLine();
             System.out.println("Masukkan jurusan : ");
             jurusan = sc.nextLine();
             System.out.print("Masukkan nilai Matematika : ");
-            Matematika = sc.nextInt();
+            int Matematika = sc.nextInt();
             System.out.print("Masukkan nilai Fisika : ");
-            Fisika = sc.nextInt();
+            int Fisika = sc.nextInt();
             System.out.print("Masukkan nilai Bahasa Inggris : ");
-            Inggris = sc.nextInt();
+            int Inggris = sc.nextInt();
             System.out.print("Masukkan nilai Bahasa Indonesia : ");
-            Indonesia = sc.nextInt();
+            int Indonesia = sc.nextInt();
           
             
             if (jurusan.equals("IPA") || jurusan.equals("IPS")) {
@@ -53,9 +49,10 @@ public class PraktikumDasarpemrograman {
                 System.out.println("Jurusan tidak valid");
 
                 //Output
-                total  =  (Matematika + Fisika + Inggris + Indonesia) /4 ;
+                float total  =  (Matematika + Fisika + Inggris + Indonesia) /4 ;
                 System.out.println("Rata rata dari nilai keseluruhan adalah : " + total);
         }        
+        sc.close();
     }
 }
     

@@ -16,5 +16,7 @@ public class Individu4 {
         // Menghitung rata-rata
         double rataRata = (double) jumlah / array.length;
         System.out.println("Rata-rata: " + rataRata);
+
+        scanner.close();
     }
 }

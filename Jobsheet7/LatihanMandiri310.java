@@ -9,5 +9,6 @@ public class LatihanMandiri310 {
               System.out.print(i + " ");
             }
         }
+        sc.close();
     }
 }

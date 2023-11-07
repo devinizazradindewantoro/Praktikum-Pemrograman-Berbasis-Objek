@@ -7,10 +7,10 @@ public class PemilihanPercobaan110 {
         System.out.println("Masukkan angka:  ");
         angka = input10.nextInt();
 
-        int nomor = 10;
-
         String hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
         System.out.println("Angka ini adalah " + hasil);
+
+        input10.close();
     }
     
 }

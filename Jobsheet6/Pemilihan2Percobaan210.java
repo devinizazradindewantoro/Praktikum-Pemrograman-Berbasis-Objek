@@ -25,6 +25,6 @@ public class Pemilihan2Percobaan210 {
         } else {
             System.out.println("Bukan Segitiga");
         } 
-        
+        input10.close();
     }
 }

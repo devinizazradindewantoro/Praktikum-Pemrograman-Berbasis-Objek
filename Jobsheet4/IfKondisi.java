@@ -13,6 +13,7 @@ public class IfKondisi {
         System.out.println("anda menggunakan range weapon" );
     }
 
+    input.close();
     }
     
 }

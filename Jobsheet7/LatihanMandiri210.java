@@ -9,6 +9,7 @@ public class LatihanMandiri210 {
             sum +=i;
         }
         System.out.println("Hasil penjumlahan deret bilangan dari 25 sampai dengan 1 adalah " + sum);
+
+        sc.close();
   }
 }
-

@@ -44,5 +44,7 @@ public class Tugas {
         System.out.println("Nilai tertinggi: " + nilaiTertinggi);
         System.out.println("Nilai terendah: " + nilaiTerendah);
         System.out.println("Rata-rata: " + rataRata);
+
+        sc.close();
     }
 }

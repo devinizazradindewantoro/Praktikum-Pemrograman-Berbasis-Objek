@@ -18,5 +18,6 @@ public class Pemilihan2Percobaan110 {
         } else 
             System.out.println("Bukan Tahun Kabisat");
 
+            input10.close();
     }
 }

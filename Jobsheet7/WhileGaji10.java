@@ -38,7 +38,7 @@ public class WhileGaji10 {
         i++;
         System.out.println("Total gaji lembur: " + totalGajiLembur);
 
-              
+        input10.close();
     }
     
 }
