@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Percobaan621 {
+public class Percobaan609 {
     static int hitungLuas (int pjg, int lb){
         int Luas=pjg*lb;
         

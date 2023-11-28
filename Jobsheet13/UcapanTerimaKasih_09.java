@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UcapanTerimaKasih_21 {
+public class UcapanTerimaKasih_09 {
     public static String PenerimaUcapan(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Tuliskan NAMA orang yang ingin Anda beri ucapan: ");

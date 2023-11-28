@@ -1,4 +1,4 @@
-public class Percobaan521 {
+public class Percobaan509 {
     static void Tampil(String str, int...a){
         System.out.println("String: " + str);
         System.out.println("Jumlah argumen/parameter: " + a.length);
