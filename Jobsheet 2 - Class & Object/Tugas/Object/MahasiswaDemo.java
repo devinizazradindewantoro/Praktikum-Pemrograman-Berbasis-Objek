@@ -11,6 +11,7 @@ public class MahasiswaDemo {
         m1.nama = "Yansy Ayuningtyas";
         m1.alamat = "Nias, Sumatera Utara";
         m1.kelas = "2A\n";
+        m1.displayBiodata();
 
         m2.nim = "063048";
         m2.nama = "John Doe";
@@ -21,8 +22,6 @@ public class MahasiswaDemo {
         m3.nama = "Alberto Dominique";
         m3.alamat = "Pontianak, Kalimantan Barat";
         m3.kelas = "2F";
-
-        m1.displayBiodata();
         m2.displayBiodata();
         m3.displayBiodata();
     }

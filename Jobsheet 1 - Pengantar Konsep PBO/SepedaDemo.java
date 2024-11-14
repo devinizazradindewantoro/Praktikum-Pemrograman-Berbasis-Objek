@@ -1,5 +1,4 @@
-public class SepedaDemo 
-{
+public class SepedaDemo {
     public static void main(String[] args) 
     {
         Sepeda spd1 = new Sepeda();
